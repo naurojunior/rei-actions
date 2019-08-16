@@ -1,11 +1,11 @@
 ### Rei Actions
 Always watching for the creativity of reactions. Counts and lists the number of new reactions created.
 
-####Install
+#### Install
 
 `$ yarn`
 
-####Environment and stuffs
+#### Environment and stuffs
 Create a .env file containing:
 
     SLACK_TOKEN="xoxp-xxxxxxxxxxxxxxxx"
@@ -17,6 +17,6 @@ File name is the "local database" of acquired emojis. There's already one file c
 
 At least on emojis.txt you must have an empty array (I should fix it sooner or laaaaaaaaater...)
 
-####Run
+#### Run
 
 `$ node count.js`
