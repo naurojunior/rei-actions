@@ -16,7 +16,7 @@ module.exports = {
         });
 
         const res = await web.chat.postMessage({
-            channel: "#test_bot",
+            channel: "#random",
             text: "Desde ontem foram criadas " + newEmojis.length + " novas reactions. Hoje temos um total de " + total + " reactions. :rindodenervoso: " +
             "\nEsses foram os novos emojis: " + emojiList.join(" "),
             as_user: false,
