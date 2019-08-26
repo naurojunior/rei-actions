@@ -15,9 +15,11 @@ module.exports = {
             return ":" + data.emoji + ":";
         });
 
+        const fraseDia = (new Date().getDay() == 1) ? "sexta-feira" : "ontem";
+
         const res = await web.chat.postMessage({
             channel: "#random",
-            text: "Desde ontem foram criadas " + newEmojis.length + " novas reactions. Hoje temos um total de " + total + " reactions. :rindodenervoso: " +
+            text: "Desde " + fraseDia + " foram criados " + newEmojis.length + " novas reactions. Hoje temos um total de " + total + " reactions. :rindodenervoso: " +
             "\nEsses foram os novos emojis: " + emojiList.join(" "),
             as_user: false,
             username: "Rei Actions",
