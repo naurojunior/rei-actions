@@ -2,7 +2,7 @@
 Always watching for the creativity of reactions. Counts and lists the number of new reactions created.
 There's so much gambiarra in one place that almost a black hole of garbage was created.
 
-I ask for all programming gods to forgive me and have mercy of my soul
+I ask for all programming gods to forgive me and have mercy on my soul
  
 #### Install
 
